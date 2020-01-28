@@ -1,0 +1,278 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="assets/css4/bootstrap.css">
+<!-- estilos personalizados CSS -->
+<link rel="stylesheet" href="assets/css4/estilos.css">
+
+
+</head>
+<body>
+	<!-- menu -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active"><a class="nav-link"
+					href="inicioHotel.html">Inicio<span class="sr-only">(current)</span></a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="carrito.do?op=listarHabCarrito">Habitaciones <span
+						class="sr-only">(current)</span></a></li>
+				<li class="nav-item dropdown"><a
+					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+					role="button" data-toggle="dropdown" aria-haspopup="true"
+					aria-expanded="false"> Contacto </a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="formularioContacto.jsp">Contactarse</a>
+						<a class="dropdown-item" href="formularioSugerencia.html">Sugerencia</a>
+						<div class="dropdown-divider"></div>
+
+					</div></li>
+			</ul>
+
+		</div>
+		<div align="right" class="display-4">
+			<a class="btn btn-primary" href="login.jsp" role="button">Iniciar
+				Sesión</a> <a class="btn btn-primary" href="clientes.do?op=nuevo"
+				role="button">Registrarse</a>
+		</div>
+
+	</nav>
+	<br>
+
+	<header class="py-5 bg-image-full">
+		<section id="cover">
+			<div id="cover-texto">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-sm-12 col-md-12">
+							<h2 class="display-4">
+								<a href="#"><img src="mainCliente/images/shop/logo.png"
+									alt="" width="125x" height="123" /></a>Hotel Córdoba
+							</h2>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+	</header>
+	<section>
+		<div class="container">
+			<div class="row my-4">
+				<div class="col">
+					<div class="jumbotron">
+						<div class="container-fluid">
+							<div class="row">
+								<h2>ACERCA DE NUESTRO HOTEL</h2>
+								<P class="lead">Situado en el corazón de Córdoba, nuestro
+									hotel le permite acceder fácilmente a la mayoría de los lugares
+									de interés turístico. Hay muchos almacenes, restaurantes y
+									bares a la salida del hotel y desde allí, se disfruta de una
+									bonita vista.</P>
+
+							</div>
+							<div class="row">
+								<div class="col-sm d-flex">
+									<div class="card card-body flex-fill">
+										UBICACIÓN <img src="imagenes/sierras.jpg" class="card-img-top"
+											alt="...">
+										<p>Encontranos Av. San Martín 840, al pie de las sierras.
+										</p>
+										<button class="btn btn-primary" data-toggle="modal"
+											data-target="#Modal1">Ver mas....</button>
+										<!-- Modal1 -->
+										<div class="modal fade" id="Modal1" tabindex="-1"
+											role="dialog" aria-labelledby="exampleModalLabel"
+											aria-hidden="true">
+											<div class="modal-dialog" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h5 class="modal-title" id="exampleModalLabel">Ubicacion
+															de nuestro Hotel</h5>
+														<button type="button" class="close" data-dismiss="modal"
+															aria-label="Close">
+															<span aria-hidden="true">&times;</span>
+														</button>
+													</div>
+													<div class="modal-body">
+														Este hotel tranquilo, situado en las sierras, se encuentra
+														a unos pocos minutos de las paradas de autobuses. <img
+															src="imagenes/ubicacionMapa.jpg">
+
+													</div>
+													<div class="modal-footer">
+														<button type="button" class="btn btn-secondary"
+															data-dismiss="modal">Close</button>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm d-flex">
+									<div class="card card-body flex-fill">
+										TARIFAS <img src="imagenes/logo2.jpg" class="card-img-top"
+											alt="...">
+										<p>Ofrecemos tarifas acordes a nuestros clientes.</p>
+										<button class="btn btn-primary" data-toggle="modal"
+											data-target="#Modal3">Ver mas....</button>
+										<!-- Modal3 -->
+										<div class="modal fade" id="Modal3" tabindex="-1"
+											role="dialog" aria-labelledby="exampleModalLabel"
+											aria-hidden="true">
+											<div class="modal-dialog" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h5 class="modal-title" id="exampleModalLabel">Tarifas
+															de nuestro Hotel</h5>
+														<button type="button" class="close" data-dismiss="modal"
+															aria-label="Close">
+															<span aria-hidden="true">&times;</span>
+														</button>
+													</div>
+													<div class="modal-body">
+														Resumen de nuestras Tarifas:<br> Habitaciones:<br>Individual:
+														$1000<br>Doble Individual: $1300<br>Doble
+														Matrimonial: $1600<br>Doble Grande: $1800<br>Triple:
+														$2000<br>Suite: $3000
+													</div>
+													<div class="modal-footer">
+														<button type="button" class="btn btn-secondary"
+															data-dismiss="modal">Close</button>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm d-flex">
+									<div class="card card-body flex-fill">
+										SERVICIOS <img src="imagenes/vistaHotel5.jpg"
+											class="card-img-top" alt="...">
+										<p>Ofrecemos variados y amplios servicios para una estadía
+											placentera.</p>
+										<button class="btn btn-primary" data-toggle="modal"
+											data-target="#Modal2">Ver mas....</button>
+										<!-- Modal2 -->
+										<div class="modal fade" id="Modal2" tabindex="-1"
+											role="dialog" aria-labelledby="exampleModalLabel"
+											aria-hidden="true">
+											<div class="modal-dialog" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h5 class="modal-title" id="exampleModalLabel">Servicios
+															de nuestro Hotel</h5>
+														<button type="button" class="close" data-dismiss="modal"
+															aria-label="Close">
+															<span aria-hidden="true">&times;</span>
+														</button>
+													</div>
+													<div class="modal-body">
+														Dentro de nuestros servicios contamos con lo siguiente:<br>
+														Media pensión $200,<br> Pensión Completa $280,<br>
+														Gimnacio $150<br>Pileta Climatizada $200
+													</div>
+													<div class="modal-footer">
+														<button type="button" class="btn btn-secondary"
+															data-dismiss="modal">Close</button>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- div de row -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<br>
+
+	<!-- carousel -->
+	<section id="carousel">
+		<div id="carousel-admin" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-admin" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-admin" data-slide-to="1"></li>
+				<li data-target="#carousel-admin" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active" class="row justify-content-center">
+					<!--<img src="imagenes/hab100.jpg" class="d-block w-100" alt="Habitaciones de nuestro hotel">-->
+					<img src="imagenes/vistaHotel2.jpg" class="d-block w-100"
+						alt="Habitaciones de nuestro hotel">
+					<div class="carousel-caption">
+						<h3>Vista</h3>
+					</div>
+				</div>
+				<div class="carousel-item" class="row justify-content-center">
+					<!--<img src="imagenes/hab100.jpg" class="d-block w-100" alt="Habitaciones de nuestro hotel">-->
+					<img src="imagenes/vistaHotel3.jpg" class="d-block w-100"
+						alt="Habitaciones de nuestro hotel">
+					<div class="carousel-caption">
+						<h3>Vista</h3>
+					</div>
+				</div>
+				<div class="carousel-item" class="row justify-content-center">
+					<!--<img src="imagenes/servicio.jpg" class="d-block w-100" alt="Servicio privado de nuestro hotel">-->
+					<img src="imagenes/vistaHotel4.jpg" class="d-block w-100"
+						alt="Servicio privado de nuestro hotel">
+					<div class="carousel-caption">
+						<h3>Servicio privado</h3>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carousel-admin" role="button"
+				data-slide="prev"> <span class="carousel-control-prev-icon"
+				aria-hidden="true"></span> <span class="sr-only">Anterior</span>
+			</a> <a class="carousel-control-next" href="#carousel-admin"
+				role="button" data-slide="next"> <span
+				class="carousel-control-next-icon" aria-hidden="true"></span> <span
+				class="sr-only">Siguiente</span>
+			</a>
+		</div>
+	</section>
+	<br>
+	<br>
+
+
+	<!-- Footer -->
+	<footer id="footer" class="py-5">
+		<div class="container">
+			<p class="m-0 text-center text-white">
+				hotelmyj@gmail.com <br /> Av. San Martín 840 - Código Postal 5000 <br />
+				Córdoba - Argentina <br /> Copyright &copy; HOTEL
+		</div>
+		<!-- /.container -->
+	</footer>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="assets/js4/jquery-1.12.0.min.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+	<!--  /*integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"*/-->
+	<script src="assets/js4/bootstrap.js"></script>
+</body>
+</html>

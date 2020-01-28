@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="assets/css4/bootstrap.css">
+<!-- estilos personalizados CSS -->
+<link rel="stylesheet" href="assets/css4/estilosFormulario.css">
+<title>Formulario de sugerencias</title>
+</head>
+<body>
+	<form action="contactos.do?op=nuevo" method="post">
+		<h2>Sugerencias</h2>
+		<input type="text" name="nombre" placeholder="nombre" required>
+		<input type="email" name="correo" placeholder="correo" required>
+
+		<textarea name="consulta" placeholder="Escriba aqui su sugerencia"
+			required></textarea>
+		<input type="submit" value="enviar" id="boton">
+	</form>
+	<div align="center">
+		<h5>
+			<a href="inicioHotel.html" style="color: white;">Cancelar y
+				volver a Inicio</a>
+		</h5>
+	</div>
+</body>
+</html>

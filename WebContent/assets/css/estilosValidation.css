@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/*-------Estilos para texto de validacion formulario nuevoCliente------*/
+.miClaseError {
+	color: #FF0000; /* rojo */
+}
+
+.miClaseValidada {
+	color: #00CC00; /* verde */
+}

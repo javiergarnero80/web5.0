@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+
+html, body {
+	height: 100%;
+}
+
+imagenes {
+	max-width: 100%;
+}
+/*cover*/
+#cover {
+	/*background:#222 url('../../imagenes/cielo.jpg') center center no-repeat ;*/
+	/*background:#222 url('../../imagenes/footer_lodyas.png') center center no-repeat ;*/
+	background-color: black;
+	background-size: cover;
+	color: white;
+	heigth: 100%;
+	text-align: center;
+	display: flex;
+	align-Items: center;
+}
+
+#cover-texto {
+	width: 100%;
+}
+
+#cover-texto .form-inline {
+	padding: 5rem 0;
+}
+
+#footer {
+	/*background:#222 url('../../imagenes/cielo.jpg') center center no-repeat ;*/
+	/*background:#222 url('../../imagenes/papyrus-dark.png') center center no-repeat ;*/
+	background-color: black;
+	background-size: cover;
+}
+
+#cuerpoFondo {
+	/*background:#222 url('../../imagenes/gravel.png');*/
+	background: #222 url('../../imagenes/dark_wood.png');
+}
