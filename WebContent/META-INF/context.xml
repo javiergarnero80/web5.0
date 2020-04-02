@@ -6,11 +6,11 @@
 	<Resource name="jdbc/mysql" auth="Container"
 		type="javax.sql.DataSource" maxActive="20" maxIdle="10" maxWait="5000"
 
-		username="user" password="QD2WBfsLP6Jja9Xa"
+		username="root" password="root"
 
 		driverClassName="com.mysql.jdbc.Driver"
 
-		url="jdbc:mysql://node27637-web2hotelmyj.es-1.axarnet.cloud:3306/BDAyDAW2">
+		url="jdbc:mysql://localhost:3306/bdaydaw2">
 
 	</Resource>
 

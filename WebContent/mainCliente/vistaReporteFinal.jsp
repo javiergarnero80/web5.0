@@ -12,7 +12,8 @@ response.addHeader("Cache-control","no-store");
 response.setDateHeader("Expires", 0);
 
 try{
-if(session.getAttribute("email") ==null && session.getAttribute("nivel")==null && session.getAttribute("Nombre")==null){
+if(session.getAttribute("email") ==null && session.getAttribute("nivel")==null)
+{
 	//request.getRequestDispatcher("login.jsp").forward(request, response);//despacho al login si no hay variables de sesion
 	response.sendRedirect("login.jsp");//redirigimos en el cliente para evitar reenvio de formulario de login
 }
@@ -153,7 +154,7 @@ if(session.getAttribute("email") ==null && session.getAttribute("nivel")==null &
 				<table class="table table-condensed">
 					<thead>
 						<tr class="cart_menu">
-			     		<td>Voucher a nombre de: <%=session.getAttribute("Nombre")%></td>
+			     		<td>Voucher a nombre de: <%=session.getAttribute("email")%></td>
 						</tr>
 						<tr class="cart_menu">
 							<td class="image">Foto de Habitación</td>

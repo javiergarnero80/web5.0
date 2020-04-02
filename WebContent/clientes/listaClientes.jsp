@@ -30,7 +30,7 @@ if(session.getAttribute("email") ==null && session.getAttribute("nivel")==null){
 	<jsp:include page="/menu.jsp" />
 	<div align="right">
 		Bienvenido Sr:
-	/<%=session.getAttribute("Email") %>
+	/<%=session.getAttribute("email") %>
 		<a href="${pageContext.request.contextPath}/cerrarSesion.do">Cerrar
 			Sesion</a>
 	</div>

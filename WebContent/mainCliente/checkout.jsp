@@ -4,7 +4,7 @@
 <%@page import="com.hotel.controllers.HabitacionesController"%>
 <%@ page session="true"%>
 <%
-//afregamos seguridad al uso de sesiones, evitando que al recargar o al hacer atras se mantengan las sesiones
+//agregamos seguridad al uso de sesiones, evitando que al recargar o al hacer atras se mantengan las sesiones
 response.setHeader("Pragma","no-cache");
 response.addHeader("Cache-control","must-revalidate");
 response.addHeader("Cache-control","no-cache");
