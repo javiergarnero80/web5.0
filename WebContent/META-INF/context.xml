@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xml>
-
 <Context antiJARLocking="true" path="/SitioWebAyDAW2">
 
-	<Resource name="jdbc/mysql" auth="Container"
-		type="javax.sql.DataSource" maxActive="20" maxIdle="10" maxWait="5000"
+	<Resource name="jdbc/mysql" auth="Container" type="javax.sql.DataSource"
+	
+		maxActive="20" maxIdle="10" maxWait="5000"
 
-		username="root" password="root"
-
+		username="user" password="bCGuqErDDTCTfFnS"
+		
 		driverClassName="com.mysql.jdbc.Driver"
-
-		url="jdbc:mysql://localhost:3306/bdaydaw2">
-
+		
+		url="jdbc:mysql://node46278-hotelmyjweb2.jelastic.saveincloud.net/BDAyDAW2">
+		
 	</Resource>
-
+	
 </Context>
